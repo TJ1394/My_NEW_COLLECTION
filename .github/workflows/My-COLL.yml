@@ -6,7 +6,7 @@ on:
 
 jobs:
   automated-api-tests:
-    runs-on: windows-latest
+    runs-on: ubaunt-latest
     steps:
       - uses: actions/checkout@v4
       - name: Install Postman CLI
